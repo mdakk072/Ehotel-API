@@ -6,10 +6,17 @@ const cors = require('cors');
 
 const mysql = require('mysql');
 const express = require('express');
+// var db = mysql.createConnection({
+//   host: 'localhost',
+//   user: 'root',
+//   password: '',
+//   port: 3306
+// });
+
 var db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
+  host: 'sql9.freemysqlhosting.net',
+  user: 'sql9612771',
+  password: 'Xswhxj3QBX',
   port: 3306
 });
 const app = express();
